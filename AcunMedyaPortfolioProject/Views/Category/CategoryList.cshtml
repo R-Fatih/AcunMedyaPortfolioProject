@@ -23,11 +23,11 @@
             <tr>
                 <td>@category.Id</td>
                 <td>@category.Name</td>
-                <td><a href="#" class="btn btn-success">Güncelle</a></td>
+                <td><a href="/Category/UpdateCategory/@category.Id" class="btn btn-success">Güncelle</a></td>
                 <td><a href="/Category/DeleteCategory/@category.Id" class="btn btn-danger">Kaldır</a></td>
             </tr>
             }
         </tbody>
     </table>
-    <a href="#" class="btn btn-primary">Yeni Kategori ekle</a>
+    <a href="/Category/CreateCategory" class="btn btn-primary">Yeni Kategori ekle</a>
 </div>

@@ -364,6 +364,7 @@
     <Content Include="Views\AdminLayout\PartialScripts.cshtml" />
     <Content Include="Views\Category\CategoryList.cshtml" />
     <Content Include="Views\Category\CreateCategory.cshtml" />
+    <Content Include="Views\Category\UpdateCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
